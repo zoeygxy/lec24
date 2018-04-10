@@ -9,4 +9,5 @@ def init_bball(csv_file_name):
     pass
 
 def get_bball_seasons(sortby='year', sortorder='desc'):
-    return []
+    global bb_seasons
+    return bb_seasons

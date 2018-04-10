@@ -9,7 +9,7 @@ app = Flask(__name__)
 def index():
     return '''
         <img src="/static/blockM.png"/>
-        <h1>UM Sports Info!</h1>
+        <h1>Michigan Sports Info!</h1>
         <ul>
             <li><a href="/bball"> Men's Basketball </a></li>
         </ul>
